@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head><h1><strong>Solicitação de Suporte</strong></h1>
+    </head>
+    <p1>Preencha o formulario abaixo como solitaçõa de suporte!</p1>
+   <h1> </h1>
+<form action="Get1.php" method="get">
+    <div> <label for="email">Email: </label>
+    <input type="email" id="email" name="email"> </div>
+    <h1> </h1>
+    <div> <label for="Nome">Nome:</label>
+    <input type="text" id="Nome" name="Nome"> </div>
+    <label for="Nome"><strong>Insira nome completo!</strong></label>
+    <h1> </h1>
+<fieldset>
+    <legend>Informe seu Setor</legend>
+    
+    <input type="radio" id="Finanças" name="Setor" value="Finanças">
+    <label for="Finanças">Finanças</label>
+    <h1> </h1>
+    <input type="radio" id="Administração" name="Setor" value="Administração">
+    <label for="Administração">Administração</label>
+    <h1> </h1>
+     <input type="radio" id="Produção" name="Setor" value="Produção">
+    <label for="Produção">Produção</label>
+    <h1> </h1>
+    <input type="radio" id="Marketing" name="Setor" value="Marketing">
+    <label for="Marketing">Marketing</label>
+    <h1> </h1>
+    <input type="radio" id="Enfermagem" name="Setor" value="Enfermagem">
+    <label for="Enfermagem">Enfermagem</label>
+    <h1> </h1>
+    <input type="radio" id="Estoque" name="Setor" value="Estoque">
+    <label for="Estoque">Estoque</label>
+    <h1> </h1>
+    <input type="radio" id="Motorista" name="Setor" value="Motorista">
+    <label for="Motorista">Motorista</label>
+</fieldset>
+<fieldset>
+    <legend>Informe quando aconteceu o indicente</legend>
+    <h1> </h1>
+    <input type="datetime-local" name="Data de incidente" id="Data de incidente" value="Data de incidente" />
+    
+</fieldset>
+<fieldset>
+    <legend>Descreva na caixa abaixo o indicente, usando até 15 linhas.</legend>
+    <textarea name="Desc_incidente" id="Desc_incidente" rows="15" cols="130">
+        
+    </textarea>
+</fieldset>
+    <h1> </h1>
+    <input type="submit" value="Enviar">
+    
+</form>
+</html>
