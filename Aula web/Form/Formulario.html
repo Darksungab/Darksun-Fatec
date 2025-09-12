@@ -4,12 +4,13 @@
     </head>
     <p1>Preencha o formulario abaixo como solitaçõa de suporte!</p1>
    <h1> </h1>
+   
 <form action="Get1.php" method="get">
     <div> <label for="email">Email: </label>
-    <input type="email" id="email" name="email"> </div>
+    <input type="email" id="email" name="email" required="email"> </div>
     <h1> </h1>
     <div> <label for="Nome">Nome:</label>
-    <input type="text" id="Nome" name="Nome"> </div>
+    <input type="text" id="Nome" name="Nome" required="Nome"> </div>
     <label for="Nome"><strong>Insira nome completo!</strong></label>
     <h1> </h1>
 <fieldset>
@@ -35,21 +36,23 @@
     <h1> </h1>
     <input type="radio" id="Motorista" name="Setor" value="Motorista">
     <label for="Motorista">Motorista</label>
+    
 </fieldset>
+
 <fieldset>
     <legend>Informe quando aconteceu o indicente</legend>
     <h1> </h1>
-    <input type="datetime-local" name="Data de incidente" id="Data de incidente" value="Data de incidente" />
+    <input type="datetime-local" name="Data de incidente" id="Data de incidente" value="Data de incidente"  required="Data de incidente"/>
     
 </fieldset>
 <fieldset>
     <legend>Descreva na caixa abaixo o indicente, usando até 15 linhas.</legend>
-    <textarea name="Desc_incidente" id="Desc_incidente" rows="15" cols="130">
+    <textarea name="Desc_incidente" id="Desc_incidente" rows="15" cols="130" required="Desc_incidente">
         
     </textarea>
 </fieldset>
     <h1> </h1>
     <input type="submit" value="Enviar">
-    
+
 </form>
 </html>
