@@ -41,10 +41,12 @@ como um histórico do meu desenvolvimento profissional na área de tecnologia.
 
 ### Contato
 
-<div align="center">
+<div>
 
-[![LinkedIn](https://img.shields.io/badge/-💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
-[![Email](https://img.shields.io/badge/-📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu.email@dominio.com)
-[![GitHub](https://img.shields.io/badge/-🐙_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/-💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/figueiredoribeiro)
+
+[![Email](https://img.shields.io/badge/-📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabriel_figueiredo_ribeiro@outlook.com)
+
+[![GitHub](https://img.shields.io/badge/-🐙_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Darksungab)
 
 </div>
